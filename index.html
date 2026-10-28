@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Keep track of books you want to read and have finished.">
+  <title>Book Reading List</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="app">
+    <header class="top">
+      <div>
+        <p class="eyebrow">YOUR PERSONAL LIBRARY</p>
+        <h1>Book Reading List</h1>
+        <p class="subtitle">A little progress, one page at a time.</p>
+      </div>
+      <div class="book-icon" aria-hidden="true">▤</div>
+    </header>
+
+    <section class="panel">
+      <h2>Add a book</h2>
+      <form id="book-form">
+        <label>Book title<input id="title" name="title" maxlength="100" placeholder="e.g. Atomic Habits" required></label>
+        <label>Author<input id="author" name="author" maxlength="80" placeholder="e.g. James Clear" required></label>
+        <button class="add-button" type="submit">+ Add book</button>
+      </form>
+      <p id="form-message" class="message" role="status"></p>
+    </section>
+
+    <section class="library">
+      <div class="library-heading">
+        <div><h2>Your library</h2><p id="book-count">0 books</p></div>
+        <div class="filters" role="group" aria-label="Filter books">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="unread">To read</button>
+          <button class="filter" data-filter="read">Finished</button>
+        </div>
+      </div>
+      <ul id="book-list" class="book-list"></ul>
+      <div id="empty-state" class="empty-state">
+        <span aria-hidden="true">📚</span>
+        <h3>Your reading journey starts here</h3>
+        <p>Add your first book using the form above.</p>
+      </div>
+    </section>
+    <footer>Books are saved in this browser on this device.</footer>
+  </main>
+</body>
+</html>
