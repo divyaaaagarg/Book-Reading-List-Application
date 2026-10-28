@@ -24,5 +24,5 @@ python -m http.server 8000
 Then visit `http://localhost:8000`.
 
 ## Deployment
-Deploy this static site to Vercel or GitHub Pages. Once deployed, replace the placeholder below with the real public URL. Do not submit a placeholder as a live link.
-- Live website: `ADD_YOUR_DEPLOYED_URL_HERE`
+Deploy this static site to Vercel or GitHub Pages.
+- Live website: `https://vercel.com/divyaaaagarg/book/7duCJHXYfHcyZG4GtpCPRap4SVxQ`
