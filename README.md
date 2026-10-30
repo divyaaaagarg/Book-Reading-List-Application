@@ -25,4 +25,4 @@ Then visit `http://localhost:8000`.
 
 ## Deployment
 Deploy this static site to Vercel or GitHub Pages.
-- Live website: `https://vercel.com/divyaaaagarg/book/7duCJHXYfHcyZG4GtpCPRap4SVxQ`
+- Live website: `https://portfolio-a21x-nse9i1z0a-divyaaaagarg.vercel.app/`
